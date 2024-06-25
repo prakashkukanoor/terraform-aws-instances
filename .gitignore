@@ -1,6 +1,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+#tfiles to ignore for module setup
+**/.DS_Store
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
@@ -32,3 +35,4 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+.terraform.lock*
